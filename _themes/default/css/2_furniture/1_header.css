@@ -1,0 +1,99 @@
+﻿#header{position: relative;z-index: 4;}
+html > body #header{overflow:hidden;}
+
+/* Site logo
+=========== */
+#site-logo{
+	background: #FFF none;
+	border-left: 1px solid #e3e3e3;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #dadada;
+	border-top: 0 none;
+	font-size: 20px;
+	line-height: 1em;
+	position: relative;
+	float:left;
+	width: 144px;
+	height: 86px;
+	margin: 0 2px;
+	padding: 0 10px;
+}
+
+#site-logo a{display:block;padding:24px 44px 0 0;text-align:right;color: #005893;}
+
+#site-logo span{background: transparent url('../../img/logos/logo_standardchartered.gif') 0 0 no-repeat;}
+
+/* Site topbar
+=========== */
+#site-topbar #shares-ticker{
+	border-bottom: 1px solid #4C4C4C;
+	border-right: 1px solid #4C4C4C;
+	line-height: 1.5454em;
+	float: left;
+	width: 348px;
+	min-height: 1.5454em;
+	margin-bottom: 0.3636em;
+	padding-right: 12px;
+	overflow: hidden;
+}
+
+#site-topbar #shares-ticker li{
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 10px;
+	margin-bottom: 0;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+	#site-topbar #shares-ticker .up{background-image:url('../../img/icons/icn_stocks_up.gif');}
+	#site-topbar #shares-ticker .down{background-image:url('../../img/icons/icn_stocks_down.gif');}
+	
+#site-topbar #shares-ticker li span{color: #62B651;font-weight: bold;margin-left: 4px;}
+
+/* Site topbar - search
+=========== */
+#site-search{float: right;margin-bottom: 0.5em;}
+
+#site-search fieldset{border-bottom: 1px solid #4C4C4C;padding-bottom: 1px;}
+
+#site-search input,
+#site-search button{
+	background: none repeat scroll 0 0 white;
+	border: 0 none;
+	color: #3F94BC;
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: auto;
+	display: block;
+	position: relative;
+	z-index:  10;
+}
+
+#site-search .text{/*width: 148px;*/width:0px;height: 1.455em;}
+
+#site-search .submit{
+	background: transparent url('../../img/icons/icn_sitesearch.gif') 50% 50% no-repeat;
+	/*width: 14px;*/
+	width: 0px;
+	height: 1.455em;
+	cursor: pointer;
+}
+
+/* Site topbar - breadcrumbs
+=========== */
+#site-breadcrumbs{margin-bottom: 0.4166em;clear:both;font-size: 1.2em;line-height: 1.1666em;}
+	#home #site-breadcrumbs{display:none;}
+
+#site-breadcrumbs li{display: inline;margin-bottom: 0;}
+
+#site-breadcrumbs a:link,
+#site-breadcrumbs a:visited{color: #848383;}
+
+#site-breadcrumbs a:hover,
+#site-breadcrumbs a:focus,
+#site-breadcrumbs a:active{color: #FFF;}
+
+#site-breadcrumbs .active{color: #62B651;}

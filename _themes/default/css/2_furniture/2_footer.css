@@ -1,0 +1,21 @@
+﻿#footer{
+	background: #1E1E1E url('../../img/backgrounds/bg_footer.gif') 0 0 no-repeat;
+	min-height: 160px;
+	padding: 30px 85px 70px;
+	overflow: hidden;
+	clear:both;
+	position:relative;
+	z-index:0;
+}
+
+#footer dt{color:#FFF;font-weight: bold;margin-bottom: 0.5em;}
+
+#footer dt ol{font-size: 1em;font-weight: normal;}
+
+#footer dd{margin-bottom: 0.2em;}
+
+#footer .panel p{margin-bottom: 0.2em;}
+
+#footer .style1{width: 120px;}
+#footer .style2{width: 160px;}
+#footer .style3{width: 188px;}

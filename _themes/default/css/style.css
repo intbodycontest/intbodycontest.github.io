@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*#pww-cookie { height:48px; width:100%; background:url(/uk/alw-cookies/_images/pww-cookie-gradient.gif) repeat-x; position:relative; z-index:9; font-weight:bold; color:#3280b0; display:none; }
+#pww-cookie p, #pww-cookie a { float:left; line-height:31px; margin-bottom:0; font-size:0.9em; margin-top:0; }
+#pww-cookie a { color:#3280b0;}
+#pww-cookie p { margin-left:20px; display:inline; }
+#pww-cookie #pww-cookie-content { width:960px; margin:0 auto; text-align:left; padding-top:9px; }
+#pww-cookie #pww-cookie-allow { width:92px; height:22px; background:url(/uk/alw-cookies/_images/pww-cookie-cta.png) left top no-repeat; text-indent:-999em; overflow:hidden; display:block; margin:3px 0 0 16px; }
+#pww-cookie #pww-cookie-learn { margin-left:12px; padding-left:12px; border-left:1px solid #e1e1e1; text-decoration:underline!important; background:url(/uk/alw-cookies/_images/pww-cookie-arrow.png) 12px 11px no-repeat; text-indent:10px; }
+#pww-cookie a:hover { color:#0072b0; }*/
+
+#pww-cookie { width:100%; height:55px; position:relative; z-index:9; font-size:11px; font-family:arial,verdana,helvetica,clean,sans-serif; }
+#pww-cookie #pww-cookie-content { background:url(img/pww-cookie-icon.png) no-repeat 25px 17px; width:900px; margin:0 auto; text-align:left; padding:14px 0 0 60px; }
+#pww-cookie #pww-cookie-content p { margin:0; font-size:1em; }
+#pww-cookie #pww-cookie-content a { text-decoration:underline; }
+
+.pww-black { background:url(img/pww-cookie-gradient-black.gif) repeat-x; color:#999; }
+.pww-black a { color:#3394bf!important; }

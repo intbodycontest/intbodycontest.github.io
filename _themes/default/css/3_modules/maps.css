@@ -1,0 +1,924 @@
+﻿#map-module {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+.jsEnabled #map-module {
+    position: relative;
+    white-space: normal;
+}
+.jsEnabled #map-module.loader {
+    background: url("../../img/sprites/ajax_loader.gif") no-repeat scroll 50% 50% transparent;
+}
+#map {
+    background: url("../../img/sprites/spr_map-module.jpg") no-repeat scroll 0 0 transparent;
+    margin: 0 0 2em;
+    min-height: 270px;
+    padding-left: 538px;
+}
+.jsEnabled #map {
+    background-position: right 0;
+    margin-left: -550px;
+    margin-top: 2em;
+    visibility: hidden;
+    width: 550px;
+}
+#map .country {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D6D6D6;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top;
+    white-space: normal;
+    width: 538px;
+}
+.jsEnabled #map .country {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#map .country .marker {
+    background: url("../../img/sprites/map_marker.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    min-height: 10px;
+    min-width: 10px;
+    position: absolute;
+}
+#map .country .marker p {
+    background: url("../../img/sprites/map_marker_active.png") no-repeat scroll 15px bottom transparent;
+    left: -17px;
+    margin-bottom: 0;
+    padding-bottom: 9px;
+    position: absolute;
+    top: -24px;
+    z-index: 999;
+}
+.jsEnabled #map .country .marker p {
+    background-position: 50% bottom;
+    left: 0;
+    position: absolute;
+}
+#map .country .marker .button {
+    border-bottom: 1px solid transparent;
+    padding: 6px 6px 5px;
+    text-decoration: none;
+}
+#map .country .marker .button:active {
+    background-image: url("../../img/backgrounds/bg_button_tile.gif");
+}
+#map .country .marker span {
+    white-space: nowrap;
+}
+#map .country .marker p {
+    display: none;
+}
+#map .country .marker:hover p {
+    display: block;
+}
+.jsEnabled #map .country .marker:hover p {
+    display: none;
+}
+#map-nav {
+    border-bottom: 1px solid #363636;
+    display: none;
+    overflow: hidden;
+    width: 534px;
+}
+.jsEnabled #map-nav {
+    display: block;
+    visibility: hidden;
+}
+#map-nav li {
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    padding-top: 8px;
+    width: 89px;
+}
+#map-nav li.selected {
+    background: url("../../img/sprites/map_nav_active.png") no-repeat scroll 50% 0 transparent;
+}
+#map-nav li a {
+    background: url("../../img/backgrounds/bg_map-module_nav_tile.gif") repeat-x scroll 0 0 #131313;
+    border-left: 1px solid #4C4C4C;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 4px 0;
+    text-align: center;
+    width: 100%;
+}
+#map-nav li a:hover, #map-nav li a:focus {
+    color: #3F94BC;
+}
+#map-nav li.selected a {
+    background: url("../../img/backgrounds/bg_map-module_nav_tile_active.gif") repeat-x scroll 0 bottom transparent;
+    border-left-color: #101010;
+    color: #3F94BC;
+}
+#map-nav li.last a {
+    border-right: 0 none;
+}
+#map .info {
+    margin-bottom: 0;
+    min-height: 140px;
+    padding: 14px 0 0;
+}
+#map .info .hrule {
+    clear: both;
+}
+#map .info ul {
+    font-size: 1em;
+    margin-bottom: 1.0909em;
+}
+#map .info div li.col {
+    padding-top: 2px;
+}
+#map .info ul.links, #map .info p {
+    padding-top: 1.2727em;
+}
+#map .info ul.links li {
+    margin-bottom: 0.2727em;
+    padding-top: 0;
+}
+#map .info p {
+    margin-bottom: 0.7272em;
+    padding-top: 0.7272em;
+}
+#map .info h3 {
+    margin-bottom: 0.5454em;
+}
+#map .info h4 {
+    font-weight: bold;
+}
+#australia .marker {
+    left: 462px;
+    top: 178px;
+}
+#bangladesh .marker {
+    left: 392px;
+    top: 104px;
+}
+#bruneidarussalam .marker {
+    left: 433px;
+    top: 133px;
+}
+#cambodia .marker {
+    left: 418px;
+    top: 122px;
+}
+#china .marker {
+    left: 412px;
+    top: 70px;
+}
+#china_test .marker {
+    left: 412px;
+    top: 70px;
+}
+#hongkong .marker {
+    left: 433px;
+    top: 104px;
+}
+#india .marker {
+    left: 378px;
+    top: 112px;
+}
+#indonesia .marker {
+    left: 414px;
+    top: 150px;
+}
+#japan .marker {
+    left: 470px;
+    top: 87px;
+}
+#laos .marker {
+    left: 418px;
+    top: 114px;
+}
+#macau .marker {
+    left: 424px;
+    top: 106px;
+}
+#malaysia .marker {
+    left: 414px;
+    top: 134px;
+}
+#mauritius .marker {
+    left: 350px;
+    top: 158px;
+}
+#myanmar .marker {
+    left: 410px;
+    top: 114px;
+}
+#mongolia .marker {
+    left: 905px;
+    top: 29px;
+}
+#nepal .marker {
+    left: 382px;
+    top: 97px;
+}
+#philippines .marker {
+    left: 448px;
+    top: 122px;
+}
+#singapore .marker {
+    left: 422px;
+    top: 142px;
+}
+#saudiarabia .marker {
+    left: 905px;
+    top: 148px;
+}
+#southkorea .marker {
+    left: 453px;
+    top: 84px;
+}
+#srilanka .marker {
+    left: 382px;
+    top: 127px;
+}
+#taiwan .marker {
+    left: 443px;
+    top: 108px;
+}
+#thailand .marker {
+    left: 409px;
+    top: 126px;
+}
+#vietnam .marker {
+    left: 426px;
+    top: 116px;
+}
+#angola .marker {
+    left: 286px;
+    top: 158px;
+}
+#botswana .marker {
+    left: 296px;
+    top: 171px;
+}
+#cameroon .marker {
+    left: 284px;
+    top: 133px;
+}
+#egypt .marker {
+    left: 303px;
+    top: 104px;
+}
+#cotedivoire .marker {
+    left: 249px;
+    top: 129px;
+}
+#thegambia .marker {
+    left: 239px;
+    top: 111px;
+}
+#ghana .marker {
+    left: 260px;
+    top: 128px;
+}
+#kenya .marker {
+    left: 317px;
+    top: 141px;
+}
+#nigeria .marker {
+    left: 272px;
+    top: 126px;
+}
+#sierraleone .marker {
+    left: 240px;
+    top: 122px;
+}
+#southafrica .marker {
+    left: 298px;
+    top: 185px;
+}
+#tanzania .marker {
+    left: 312px;
+    top: 153px;
+}
+#uganda .marker {
+    left: 307px;
+    top: 137px;
+}
+#zambia .marker {
+    left: 300px;
+    top: 152px;
+}
+#zimbabwe .marker {
+    left: 305px;
+    top: 164px;
+}
+#afghanistan .marker {
+    left: 352px;
+    top: 90px;
+}
+#bahrain .marker {
+    left: 331px;
+    top: 93px;
+}
+#iran .marker {
+    left: 340px;
+    top: 84px;
+}
+#iraq .marker {
+    left: 325px;
+    top: 92px;
+}
+#jordan .marker {
+    left: 319px;
+    top: 92px;
+}
+#lebanon .marker {
+    left: 325px;
+    top: 84px;
+}
+#oman .marker {
+    left: 349px;
+    top: 116px;
+}
+#pakistan .marker {
+    left: 362px;
+    top: 99px;
+}
+#qatar .marker {
+    left: 337px;
+    top: 100px;
+}
+#unitedarabemirates .marker {
+    left: 342px;
+    top: 108px;
+}
+#austria .marker {
+    left: 283px;
+    top: 68px;
+}
+#france .marker {
+    left: 265px;
+    top: 71px;
+}
+#germany .marker {
+    left: 272px;
+    top: 65px;
+}
+#guernsey .marker {
+    left: 254px;
+    top: 68px;
+}
+#italy .marker {
+    left: 285px;
+    top: 78px;
+}
+#jersey .marker {
+    left: 244px;
+    top: 68px;
+}
+#luxembourg.marker {
+    left: 269px;
+    top: 68px;
+}
+#russia .marker {
+    left: 328px;
+    top: 57px;
+}
+#spain .marker {
+    left: 256px;
+    top: 79px;
+}
+#sweden .marker {
+    left: 284px;
+    top: 50px;
+}
+#switzerland .marker {
+    left: 274px;
+    top: 74px;
+}
+#turkey .marker {
+    left: 308px;
+    top: 80px;
+}
+#unitedkingdom .marker {
+    left: 261px;
+    top: 60px;
+}
+#ireland .marker {
+    left: 250px;
+    top: 58px;
+}
+#argentina .marker {
+    left: 165px;
+    top: 202px;
+}
+#bahamas .marker {
+    left: 146px;
+    top: 103px;
+}
+#brazil .marker {
+    left: 190px;
+    top: 160px;
+}
+#canada .marker {
+    left: 106px;
+    top: 64px;
+}
+#chile .marker {
+    left: 156px;
+    top: 190px;
+}
+#colombia .marker {
+    left: 150px;
+    top: 138px;
+}
+#falklandislands .marker {
+    left: 174px;
+    top: 214px;
+}
+#mexico .marker {
+    left: 112px;
+    top: 110px;
+}
+#peru .marker {
+    left: 152px;
+    top: 154px;
+}
+#uruguay .marker {
+    left: 179px;
+    top: 187px;
+}
+#usa .marker {
+    left: 112px;
+    top: 87px;
+}
+#venezuela .marker {
+    left: 162px;
+    top: 134px;
+}
+.jsEnabled #map {
+    left: 0;
+    position: relative;
+}
+.jsEnabled #map-module .africa {
+    background: url("../../img/sprites/spr_bg_map-module_regions.jpg") no-repeat scroll right 0 transparent;
+}
+.jsEnabled #map-module .asia {
+    background: url("../../img/sprites/spr_bg_map-module_regions.jpg") no-repeat scroll right -270px transparent;
+}
+.jsEnabled #map-module .middleeast {
+    background: url("../../img/sprites/spr_bg_map-module_regions.jpg") no-repeat scroll right -540px transparent;
+}
+.jsEnabled #map-module .europe {
+    background: url("../../img/sprites/spr_bg_map-module_regions.jpg") no-repeat scroll right -810px transparent;
+}
+.jsEnabled #map-module .americas {
+    background: url("../../img/sprites/spr_bg_map-module_regions.jpg") no-repeat scroll right -1080px transparent;
+}
+.jsEnabled .marker {
+    display: none;
+}
+.jsEnabled .asia #afghanistan .marker {
+    display: block;
+    left: 837px;
+    top: 69px;
+}
+.jsEnabled .asia #australia .marker {
+    display: block;
+    left: 967px;
+    top: 179px;
+}
+.jsEnabled .asia #bangladesh .marker {
+    display: block;
+    left: 872px;
+    top: 78px;
+}
+.jsEnabled .asia #bruneidarussalam .marker {
+    display: block;
+    left: 925px;
+    top: 117px;
+}
+.jsEnabled .asia #cambodia .marker {
+    display: block;
+    left: 902px;
+    top: 104px;
+}
+.jsEnabled .asia #china .marker {
+    display: block;
+    left: 898px;
+    top: 57px;
+}
+.jsEnabled .asia #hongkong .marker {
+    display: block;
+    left: 922px;
+    top: 72px;
+}
+.jsEnabled .asia #india .marker {
+    display: block;
+    left: 852px;
+    top: 89px;
+}
+.jsEnabled .asia #indonesia .marker {
+    display: block;
+    left: 907px;
+    top: 140px;
+}
+.jsEnabled .asia #japan .marker {
+    display: block;
+    left: 976px;
+    top: 49px;
+}
+.jsEnabled .asia #laos .marker {
+    display: block;
+    left: 902px;
+    top: 85px;
+}
+.jsEnabled .asia #macau .marker {
+    display: block;
+    left: 912px;
+    top: 81px;
+}
+.jsEnabled .asia #malaysia .marker {
+    display: block;
+    left: 896px;
+    top: 114px;
+}
+.jsEnabled .africa #mauritius .marker {
+    display: block;
+    left: 1055px;
+    top: 185px;
+}
+.jsEnabled .asia #myanmar .marker {
+    display: block;
+    left: 885px;
+    top: 85px;
+}
+.jsEnabled .asia #mongolia .marker {
+    display: block;
+    left: 905px;
+    top: 29px;
+}
+.jsEnabled .asia #nepal .marker {
+    display: block;
+    left: 866px;
+    top: 67px;
+}
+.jsEnabled .asia #pakistan .marker {
+    display: block;
+    left: 835px;
+    top: 79px;
+}
+.jsEnabled .asia #philippines .marker {
+    display: block;
+    left: 944px;
+    top: 103px;
+}
+.jsEnabled .asia #singapore .marker {
+    display: block;
+    left: 904px;
+    top: 125px;
+}
+.jsEnabled .asia #southkorea .marker {
+    display: block;
+    left: 953px;
+    top: 50px;
+}
+.jsEnabled .asia #srilanka .marker {
+    display: block;
+    left: 856px;
+    top: 109px;
+}
+.jsEnabled .asia #taiwan .marker {
+    display: block;
+    left: 937px;
+    top: 76px;
+}
+.jsEnabled .asia #thailand .marker {
+    display: block;
+    left: 895px;
+    top: 96px;
+}
+.jsEnabled .asia #vietnam .marker {
+    display: block;
+    left: 912px;
+    top: 100px;
+}
+.jsEnabled .africa #angola .marker {
+    display: block;
+    left: 945px;
+    top: 156px;
+}
+.jsEnabled .africa #botswana .marker {
+    display: block;
+    left: 964px;
+    top: 190px;
+}
+.jsEnabled .africa #cameroon .marker {
+    display: block;
+    left: 930px;
+    top: 105px;
+}
+.jsEnabled .africa #egypt .marker {
+    display: block;
+    left: 974px;
+    top: 56px;
+}
+.jsEnabled .africa #cotedivoire .marker {
+    display: block;
+    left: 879px;
+    top: 104px;
+}
+.jsEnabled .africa #thegambia .marker {
+    display: block;
+    left: 852px;
+    top: 90px;
+}
+.jsEnabled .africa #ghana .marker {
+    display: block;
+    left: 893px;
+    top: 100px;
+}
+.jsEnabled .africa #kenya .marker {
+    display: block;
+    left: 999px;
+    top: 131px;
+}
+.jsEnabled .africa #nigeria .marker {
+    display: block;
+    left: 914px;
+    top: 95px;
+}
+.jsEnabled .africa #tanzania .marker {
+    display: block;
+    left: 994px;
+    top: 153px;
+}
+.jsEnabled .africa #sierraleone .marker {
+    display: block;
+    left: 862px;
+    top: 103px;
+}
+.jsEnabled .africa #southafrica .marker {
+    display: block;
+    left: 962px;
+    top: 210px;
+}
+.jsEnabled .africa #uganda .marker {
+    display: block;
+    left: 979px;
+    top: 132px;
+}
+.jsEnabled .africa #zambia .marker {
+    display: block;
+    left: 971px;
+    top: 165px;
+}
+.jsEnabled .africa #zimbabwe .marker {
+    display: block;
+    left: 980px;
+    top: 180px;
+}
+.jsEnabled .middleeast #bahrain .marker {
+    display: block;
+    left: 918px;
+    top: 111px;
+}
+.jsEnabled .middleeast #iran .marker {
+    display: block;
+    left: 942px;
+    top: 88px;
+}
+.jsEnabled .middleeast #iraq .marker {
+    display: block;
+    left: 890px;
+    top: 89px;
+}
+.jsEnabled .middleeast #jordan .marker {
+    display: block;
+    left: 856px;
+    top: 93px;
+}
+.jsEnabled .middleeast #lebanon .marker {
+    display: block;
+    left: 859px;
+    top: 76px;
+}
+.jsEnabled .middleeast #oman .marker {
+    display: block;
+    left: 949px;
+    top: 151px;
+}
+.jsEnabled .middleeast #qatar .marker {
+    display: block;
+    left: 925px;
+    top: 123px;
+}
+.jsEnabled .middleeast #saudiarabia .marker {
+    display: block;
+    left: 905px;
+    top: 148px;
+}
+.jsEnabled .middleeast #unitedarabemirates .marker {
+    display: block;
+    left: 945px;
+    top: 131px;
+}
+.jsEnabled .europe #austria .marker {
+    display: block;
+    left: 920px;
+    top: 154px;
+}
+.jsEnabled .europe #france .marker {
+    display: block;
+    left: 887px;
+    top: 155px;
+}
+.jsEnabled .europe #germany .marker {
+    display: block;
+    left: 908px;
+    top: 139px;
+}
+.jsEnabled .europe #guernsey .marker {
+    display: block;
+    left: 868px;
+    top: 140px;
+}
+.jsEnabled .europe #italy .marker {
+    display: block;
+    left: 929px;
+    top: 184px;
+}
+.jsEnabled .europe #jersey .marker {
+    display: block;
+    left: 857px;
+    top: 142px;
+}
+.jsEnabled .europe #luxembourg .marker {
+    display: block;
+    left: 895px;
+    top: 145px;
+}
+.jsEnabled .europe #russia .marker {
+    display: block;
+    left: 1012px;
+    top: 114px;
+}
+.jsEnabled .europe #spain .marker {
+    display: block;
+    left: 852px;
+    top: 196px;
+}
+.jsEnabled .europe #sweden .marker {
+    display: block;
+    left: 932px;
+    top: 84px;
+}
+.jsEnabled .europe #switzerland .marker {
+    display: block;
+    left: 906px;
+    top: 162px;
+}
+.jsEnabled .europe #turkey .marker {
+    display: block;
+    left: 1005px;
+    top: 201px;
+}
+.jsEnabled .europe #unitedkingdom .marker {
+    display: block;
+    left: 868px;
+    top: 121px;
+}
+.jsEnabled .europe #ireland .marker {
+    display: block;
+    left: 843px;
+    top: 120px;
+}
+.jsEnabled .americas #argentina .marker {
+    display: block;
+    left: 984px;
+    top: 206px;
+}
+.jsEnabled .americas #bahamas .marker {
+    display: block;
+    left: 965px;
+    top: 100px;
+}
+.jsEnabled .americas #brazil .marker {
+    display: block;
+    left: 1008px;
+    top: 165px;
+}
+.jsEnabled .americas #canada .marker {
+    display: block;
+    left: 917px;
+    top: 60px;
+}
+.jsEnabled .americas #chile .marker {
+    display: block;
+    left: 977px;
+    top: 190px;
+}
+.jsEnabled .americas #colombia .marker {
+    display: block;
+    left: 971px;
+    top: 140px;
+}
+.jsEnabled .americas #falklandislands .marker {
+    display: block;
+    left: 995px;
+    top: 223px;
+}
+.jsEnabled .americas #mexico .marker {
+    display: block;
+    left: 930px;
+    top: 112px;
+}
+.jsEnabled .americas #peru .marker {
+    display: block;
+    left: 970px;
+    top: 156px;
+}
+.jsEnabled .americas #uruguay .marker {
+    display: block;
+    left: 1000px;
+    top: 195px;
+}
+.jsEnabled .americas #usa .marker {
+    display: block;
+    left: 927px;
+    top: 86px;
+}
+.jsEnabled .americas #venezuela .marker {
+    display: block;
+    left: 984px;
+    top: 131px;
+}
+#image-map {
+    display: none;
+}
+.jsEnabled #image-map {
+    display: block;
+    height: 250px;
+    left: 550px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 538px;
+    z-index: 9999;
+}
+.jsEnabled #image-map img {
+    height: 100%;
+    width: 100%;
+}
+.jsEnabled .asia #image-map, .jsEnabled .africa #image-map, .jsEnabled .middleeast #image-map, .jsEnabled .europe #image-map, .jsEnabled .americas #image-map {
+    display: none;
+}
+.jsEnabled #map.hs_asia {
+    background-position: right -250px;
+}
+.jsEnabled #map.hs_africa {
+    background-position: right -500px;
+}
+.jsEnabled #map.hs_middleeast {
+    background-position: right -750px;
+}
+.jsEnabled #map.hs_europe {
+    background-position: right -1000px;
+}
+.jsEnabled #map.hs_americas {
+    background-position: right -1250px;
+}
+.jsEnabled #map-module .hs_asia {
+    background-position: right -250px;
+}
+.jsEnabled #map-module .hs_africa {
+    background-position: right -500px;
+}
+.jsEnabled #map-module .hs_middleeast {
+    background-position: right -750px;
+}
+.jsEnabled #map-module .hs_europe {
+    background-position: right -1000px;
+}
+.jsEnabled #map-module .hs_americas {
+    background-position: right -1250px;
+}
+#map-module map area {
+    outline: 0 none;
+}
+#regional-list {
+    left: 550px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+#regional-list ul {
+    margin-top: 0.5em;
+    overflow: hidden;
+    width: 250px;
+}
+#regional-list li {
+    float: left;
+    padding-right: 5px;
+    width: 120px;
+}

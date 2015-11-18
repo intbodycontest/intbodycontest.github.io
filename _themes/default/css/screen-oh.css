@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+.panel .content .with-text img {
+	display:inline-block;
+	margin-bottom: -2px;
+}
+.with-text a {
+	display:block;
+	height:16px;
+	padding:2px;
+}
+.with-text a:link, .with-text a:visited {
+	color: #3F94BC;
+	text-decoration: none;
+}
+.with-text li {
+	float:left;
+	width:48%;
+	height:18px;
+}
+.with-text a:hover, .with-text a:focus, .with-text a:active {
+	color: #3F94BC;
+	text-decoration: none;
+}
+#share-custom {
+	z-index: 1000000;
+	position: absolute;
+	visibility: visible;
+	display: block;
+	background:url(../img/sns-share/atbkg.png);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	left:15px;
+	top:70px;
+	display:none;
+}
+#module-social-networks #share-custom ul.with-text {
+	padding:5px;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+}
+#module-social-networks #share-custom .share-content {
+	background:#fff;
+	margin:3px;
+	width:240px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius:3px;
+	border-radius: 3px;
+}
+.share-custom_head {
+	background:#eee;
+	padding:2px 5px;
+	-moz-border-radius:  4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	-khtml-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+}
+.counter-items {
+	padding-bottom:5px;
+}
+
+
+#pagex {
+    background-color: #000000;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 738px;
+    padding: 0 85px 40px;
+    width: 960px;
+}
+
+
+#module-social-networks div.sc-row-like {
+	margin: 2px 0 0;
+}
+#more-share-box { cursor:pointer;}
+#share-box-close { cursor:pointer; float:right; display:block; padding:2px 4px;}
+
+#search-nav-box {position: absolute; z-index: 99999; top: 10px; right: 105px;}
+.searchCategory li { margin:0px;}
+#searchResults {
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 20px;
+    width: 327px;
+    z-index: 1111;
+}
+/* For modern browsers */
+.cf:before, .cf:after {
+	content:"";
+	display:table;
+}
+.cf:after {
+	clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+	zoom:1;
+}

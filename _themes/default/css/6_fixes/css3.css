@@ -1,0 +1,48 @@
+/*box shadow*/
+#site-logo {
+	-moz-box-shadow: 0 0 4px #5F5F5F;
+	-webkit-box-shadow: 0 0 4px #5F5F5F;
+	box-shadow: 0 0 4px #5F5F5F;
+}
+
+#home div.panel,
+#header .panel,
+#navbar .panel {
+	-moz-box-shadow: 0 0 4px #1C1C1C;
+	-webkit-box-shadow: 0 0 4px #1C1C1C;
+	box-shadow: 0 0 4px #1C1C1C;
+}
+	.panel.black {
+		-moz-box-shadow: 0 0 4px #1C1C1C !important;
+		-webkit-box-shadow: 0 0 4px #1C1C1C !important;
+		box-shadow: 0 0 4px #1C1C1C !important;
+	}
+
+.main .panel,
+.sub .panel {
+	-moz-box-shadow: 0 0 6px #4D4D4D;
+	-webkit-box-shadow: 0 0 6px #4D4D4D;
+	box-shadow: 0 0 6px #4D4D4D;
+}
+	.panel.white {
+		-moz-box-shadow: 0 0 6px #4D4D4D !important;
+		-webkit-box-shadow: 0 0 6px #4D4D4D !important;
+		box-shadow: 0 0 6px #4D4D4D !important;
+	}
+
+#page #rotator-controls,
+#page #hero-controls {
+	-moz-box-shadow: 0 0 0 transparent;
+	-webkit-box-shadow: 0 0 0 transparent;
+	box-shadow: 0 0 0 transparent;
+}
+
+/*map*/
+#map .country .marker .button{
+	-moz-box-shadow: 0 0 4px #1C1C1C;
+	-webkit-box-shadow: 0 0 4px #1C1C1C;
+	box-shadow: 0 0 4px #1C1C1C;
+}
+
+/*form*/
+fieldset textarea{resize:none;}

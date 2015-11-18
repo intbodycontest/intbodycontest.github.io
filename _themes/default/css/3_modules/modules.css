@@ -1,0 +1,10 @@
+﻿@import url("panels.css");
+@import url("maps.css");
+@import url("utility.css");
+
+/*social networks module*/
+#module-social-networks .addthis_toolbox{margin-top:1em;}
+	#module-social-networks div.addthis_like{margin-top:1.3em;}
+	
+.module-social-networks .addthis_toolbox{margin-top:1em;}
+	.module-social-networks div.addthis_like{margin-top:1.3em;}

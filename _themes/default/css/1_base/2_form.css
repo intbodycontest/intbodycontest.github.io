@@ -1,0 +1,204 @@
+form{font-size: 1.1em;line-height:1em;}
+
+fieldset{padding:0;margin:0;border:none;*padding-bottom:1em;}
+	#country-search fieldset{padding-bottom:0;}
+
+fieldset legend{display:none;}
+
+fieldset p,
+fieldset p.faux-label{font-size: 1em;}
+fieldset p.faux-label{line-height:1.2727em}
+fieldset p.instructions{margin-top:0;}
+
+fieldset ol,
+.content fieldset ol,
+fieldset ul,
+.content fieldset ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+.content fieldset ul,
+.content fieldset ol{font-size: 1em;}
+
+fieldset li,
+.content fieldset li{
+	margin:0 0 11px;
+	float:left;
+	width:100%;
+}
+
+fieldset .field{position: relative;}
+
+fieldset label{
+	color:#2C9F33;
+	font-weight:bold;
+	padding:2px 0 3px;
+	display: block;
+	cursor:pointer;
+}
+	fieldset .dropdown label{cursor:auto;}
+
+fieldset input,
+fieldset textarea,
+fieldset select{
+	border:1px solid #C7C7C7;
+	margin:0;
+}
+
+fieldset input,
+fieldset textarea{
+	padding:2px 4px;
+	margin:0;
+}
+
+fieldset select{
+	background: transparent none;
+	border: 1px solid #000;
+	color: #3F94BC;
+	width: 100%;
+	padding:1px;
+}
+	.main fieldset select,
+	.sub fieldset select,
+	.white fieldset select{border-color: #CCC;}
+
+fieldset textarea{height:8em;}
+
+fieldset .checkbox,
+fieldset .radio{float: left;width: auto;margin-left:10px;margin-right:10px;}
+
+fieldset .label{float: left; width: auto;margin-bottom: 0;}
+	
+fieldset .inline label{color: #848383;font-weight: normal;}
+
+fieldset .inline label,
+fieldset .inline input,
+fieldset .inline select,
+fieldset .inline textarea{float: none;display: inline;width:auto;}
+
+fieldset .inline select{margin: 0 5px;}
+
+fieldset .radio input{border:0 none;}
+	.jsEnabled .ajax fieldset .radio input{position:absolute;left:-99999em;}
+fieldset .radio label{color: #3F94BC;font-weight: bold;}
+fieldset .radio label{color: #3F94BC;font-weight: bold;}
+fieldset .radio.selected label{text-decoration: underline;} /*ie6 chaining*/
+
+fieldset .checkbox input,
+fieldset input.checkbox{border:0 none;}
+
+fieldset .submit input{
+	border: 0 none;
+	background: 0 none;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+#tag-container{position:relative;padding-left:36px;overflow:hidden;clear:both;}
+	#tag-container .label{position:absolute;top:0px;left:0px;width:36px;}
+
+.panel fieldset .submit,
+.main #hero-rotator fieldset .submit{
+	background: #131313 url("../../img/backgrounds/bg_button_tile.gif") 0 0 repeat-x;
+	border: 1px solid #363636;
+}
+	.panel fieldset .submit:active,
+	.main #hero-rotator fieldset .submit:active{
+		background-image:url('../../img/backgrounds/bg_button_tile_active.gif');
+		background-position: 0 bottom;
+	}
+
+.panel fieldset .submit input,
+.main #hero-rotator fieldset .submit input{
+	background: transparent url('../../img/icons/icn_submit_white.gif') right 50% no-repeat;
+	color:#FFF;
+	font-size: 1.0909em;
+	font-weight:bold;
+	line-height:1em;
+	display:block;
+	width:100%;
+	padding:5px 15px 4px 6px;
+	text-align: left;
+}
+.main #hero-rotator fieldset .submit input{height:auto;}
+	.panel fieldset .submit input:hover,
+	.main #hero-rotator fieldset .submit input:hover{background-image:url('../../img/icons/icn_submit_blue.gif');color:#3F94BC;}
+
+.panel .ajax fieldset .submit {background: transparent none;border:0 none;}
+
+.panel .ajax fieldset .submit input{
+	background:#FFF none;
+	border: 1px solid #C7C7C7;
+	font-size:1em;
+	color:#3F94BC;
+	text-align:center;
+	font-weight:bold;
+	float:right;
+	width:auto;
+	padding:2px 4px;
+	display:inline;
+}
+	.jsEnabled .panel .ajax fieldset .submit{display:none;}
+
+.panel .ajax fieldset .submit input:hover{
+	background-color:#62B651;
+	color:#FFF;
+}
+
+form fieldset .noFieldLabel{padding-top:2em;}
+
+/* Form step hrule */
+fieldset .hrule
+{
+	height:1px;
+	border-bottom:1px solid #f5f5f5;
+	margin:8px 0 16px;
+	line-height:1px;
+	display:block;
+	background-image:none !important;
+}
+
+/* .main forms */
+.span3 .cols2reduced form,
+.main .right-indent form{width:458px;}
+
+.span3 .cols2reduced .col input,
+.main .right-indent .cols2 .col input{width:212px;}
+.span3 .cols2reduced textarea,
+.main .right-indent textarea{width:448px;}
+
+.span3 .cols2reduced .col input,
+.main .right-indent .cols2 .col input{width:212px;}
+
+#contact-form textarea{height:14em;}
+
+.cols2reduced fieldset input{width:212px;}
+.cols2reduced fieldset .checkbox input{width:auto;}
+.cols2reduced fieldset textarea{width:450px;} /*del*/
+
+/* Input field notes */
+fieldset p em 
+{
+	position:relative;
+	display:block;
+	padding:4px 0 0 4px;
+	font-style:italic;
+}
+fieldset input.email{
+	background:#FFF none;
+	padding:2px 4px;
+}
+
+/* Form validation error */
+fieldset label.error{
+	color:#ff0000;
+	font-weight:normal;
+}
+fieldset input.error,
+fieldset textarea.error{border-color:#ff0000;}
+
+.form-caption span,
+.validate label span{color:#CC0000;font-weight:bold;}

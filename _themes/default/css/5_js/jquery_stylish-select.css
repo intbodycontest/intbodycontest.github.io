@@ -1,0 +1,123 @@
+/**
+* Hide lists on page load
+---------------------------------------------------------*/
+.stylish-select .SSContainerDivWrapper {left:-9999px;}
+
+/*
+* SC dropdowns
+---------------------------------------------------------*/
+.stylish-select .SSContainerDivWrapper {
+	width:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:22px;
+	left:0;
+	z-index:99;
+	margin-top:2px;
+}
+
+.stylish-select ul.newList,
+.stylish-select fieldset ul.newList,
+.stylish-select .main #hero-rotator ul.newList {
+	background:#000;
+	border: 1px solid #4C4C4C;
+	border-top: 0 none;
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#000;
+	overflow:auto;
+	margin-right:-1px;
+	margin-left:-1px;
+}
+	.stylish-select .main fieldset ul.newList,
+	.stylish-select .sub fieldset ul.newList,
+	.stylish-select .white fieldset ul.newList {
+		background:#FFF;
+		border-color:#CCC;
+	}
+
+.stylish-select ul.newList * {margin:0;padding:0;}
+
+.stylish-select ul.newList a {
+	color:#3F94BC;
+	text-decoration:none;
+	display:block;
+}
+
+.stylish-select .newListSelected,
+.stylish-select .main #hero-rotator .newListSelected {
+	background-color:#000;
+	border: 1px solid #4C4C4C;
+	color:#3F94BC;
+	/*line-height: 1.2727em;*/
+	height:17px;
+	padding:3px 0 0 5px;
+}
+	.stylish-select .main .newListSelected,
+	.stylish-select .sub .newListSelected,
+	.stylish-select .white .newListSelected {
+		background-color:#FFF;
+		border-color:#CCC;
+	}
+	.stylish-select #hero-rotator .newListSelected {border-color: #000;}
+		.stylish-select .inline .newListSelected,
+		.stylish-select .main .inline .newListSelected,
+		.stylish-select .sub .inline .newListSelected,
+		.stylish-select .white .inline .newListSelected {display:inline-block;vertical-align:middle;}
+
+.stylish-select .newListSelected span {display:block;}
+
+.stylish-select ul.newList li a {
+	padding:3px 8px;
+	display: block;
+}
+
+.stylish-select ul.newList li a:focus {-moz-outline-style: none;}
+
+.stylish-select .selectedTxt {
+	background: url("../../img/icons/icn_select_handle.gif") no-repeat scroll right 50% transparent;
+	overflow:hidden;
+	height:16px;
+	padding:0 23px 0 0;
+}
+
+.stylish-select .hiLite {
+	background:#62B651!important;
+	color:#FFF!important;
+}
+	.stylish-select .black .hiLite {color:#000 !important;}
+
+.stylish-select .hiLite a {
+	background:#62B651!important;
+	color:#FFF!important;
+}
+	.stylish-select .black .hiLite a {color:#000 !important;}
+
+.stylish-select .newListHover {
+	background:#62B651!important;
+	color:#FFF!important;
+	cursor:default;
+}
+	.stylish-select .black .newListHover {color:#000 !important;}
+
+.stylish-select .newListSelHover,
+.stylish-select .newListSelFocus {
+	background-position:0 -22px;
+	cursor:default;
+}
+
+.stylish-select .newListOptionTitle {
+	color:#2C9F33;
+	font-weight:bold;
+	padding: 0 5px !important;
+	width:auto;
+	float:none;
+}
+
+.stylish-select .newListOptionTitle ul {
+	margin:3px -5px 0 !important;
+}
+
+.stylish-select .newListOptionTitle li {font-weight:normal;}

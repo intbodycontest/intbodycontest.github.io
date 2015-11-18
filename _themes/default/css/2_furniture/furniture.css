@@ -1,0 +1,67 @@
+﻿@import url("1_header.css");
+@import url("2_footer.css");
+@import url("3_page.css");
+
+/* General layout
+=========== */
+#navbar{float:left;width:192px;}
+.main{float:left;width:576px;}
+.sub{float:right;width:192px;}
+	
+.row{float:right;width: 768px;}
+html > body .row{clear:right;} /*DEVNOTE: prevent ie6*/
+	#home .row{float:none;width:100%;}
+	
+body .equalheight .panel{height: 100%;}
+
+/*clearfix*/
+#navbar, .main, .sub, .row{display:inline-block;}
+
+#navbar:after,
+.main:after,
+.sub:after,
+.row:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;font-size:0;}
+
+html[xmlns] #navbar, html[xmlns] .main, html[xmlns] .sub, html[xmlns] .row{display: block;}
+
+* html #navbar, * html .main, * html .sub, * html .row{height:1%;}
+
+/* Social/Calendar networks icon links
+=========== */
+.social-networks,.calendar-networks{position:relative;overflow:hidden;}
+	#site-nav .nav .social-networks,
+	#site-nav .nav .calendar-networks{
+		font-size: 1em;
+		margin: 0;
+		display:block;
+	}
+#site-nav .nav #follow .social-networks{float:right;}       
+#site-nav .nav li#follow:after{content:".";display:block;clear:both;visibility:hidden;line-height: 0;height: 0;font-size: 0;} /*W3C compliant browsers*/       
+#site-nav .nav li#follow{display:inline-block;} /*IE7 xhtml*/       
+html[xmlns] #site-nav .nav li#follow{display:block;} /*Opera*/       
+* html #site-nav .nav li#follow{height: 1%;} /*IE5-6*/
+
+.social-networks li, .calendar-networks li,
+#site-nav .nav li .social-networks li, #site-nav .nav li .calendar-networks li{
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+.social-networks a, .calendar-networks a,
+#site-nav .nav li .social-networks li a, #site-nav .nav li .calendar-networks li a{
+	background: none;
+	display: block;
+	overflow: hidden;
+	width:16px;
+	height:16px;
+	margin:0;
+	padding:0;
+}
+	#footer .social-networks a,
+	#footer .calendar-networks a{float:none;margin:0;display:inline-block;width:16px;height:16px;overflow:hidden;vertical-align:middle;}
+
+.social-networks a img,.calendar-networks a img{position:relative;top:-18px;left:0px;}
+.social-networks a:hover img,.calendar-networks a:hover img{top:0px;}
+
+#footer .social-networks{margin-bottom:0.1818em;}

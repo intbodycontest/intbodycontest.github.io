@@ -1,0 +1,288 @@
+﻿/*Home*/
+#home #tier-1{height:149px;}
+#home #tier-2{height:155px;}
+
+/*About Us Sponsorship*/
+#aboutus-sponsorship #tier-1 .panel{min-height:425px;}
+
+/* U contact template */
+.cols-contact .col{width:274px;}
+.cols-contact .last-col{width:250px;}
+
+/* AVL template*/
+#filteravlsort .newListSelected{width:115px;}
+#filteravlshow .newListSelected{width:40px;}
+
+/* U tabbed template*/
+#filterdate .newListSelected{width:90px;margin:0 5px;}
+
+/* contact-form */
+#contact-form fieldset p.submit{float:right;width:140px;}
+
+/* careers */
+#careers-details fieldset p.submit,
+#search-job{float:right;width:150px;}
+
+fieldset .user-filename{
+	background:transparent url('../../img/icons/icn_filetypes_pdf.gif') 0 50% no-repeat;
+	font-style:italic;
+	padding-left:20px;
+}
+
+.span3 .cols2reduced .user-filename,
+.span3 .\32 cols2reduced .user-filename{width:202px;}
+
+fieldset .file-feedback{overflow:hidden;/*clearfix*/}
+
+.main a.blue,
+.sub a.blue{
+	background-image:url('../../img/backgrounds/bg_button_blue_tile.gif');
+	background-color: #005B9A;
+	border-color: #BFD1E9 #BFD1E9 #768FB7;
+	font-weight:normal;
+	
+	float:left;
+}
+
+.main a.blue:link,
+.sub a.blue:link,
+.main a.blue:visited,
+.sub a.blue:visited{font-weight:normal;}
+
+.main a.blue span,
+.sub a.blue span{background-image:url('../../img/icons/icn_chevron_down_white.gif');padding-right:16px;}
+
+#careers-details a.blue{margin-top:-1em;}
+
+/* investor relations / news & media hub */
+.form-carousel-label{margin-bottom:3px;}
+#newsmedia-news,
+#ir-news{padding-top:8px;}
+
+#newsmedia-news .listing,
+#ir-news .listing{
+	background:transparent url('../../img/backgrounds/bg_content_horizontal_rule.gif') 0 0 repeat-x;
+	padding-top:1em;
+}
+#featured-news{margin-bottom:1.8181em;}
+#featured-news h3{color:#2C9F33;margin-bottom:1em;}
+#newsmedia-news .item,
+#ir-news .item,
+#schools-events .item{border:0 none;padding-top:0;padding-bottom:0;}
+
+/* download centre*/
+#downloadcentre-search fieldset{padding:12px 0 8px;}
+#downloadcentre-search fieldset.fieldrule{border-top: 1px solid #F5F5F5;}
+#downloadcentre-search fieldset p.submit{float:right;width:150px;margin-top:10px;}
+
+#downloadcentre-search fieldset .checkbox{
+	border-right:1px solid #CCC;
+	border-left:1px solid #F3F3F3;
+	padding-right:10px;
+	padding-left:10px;
+	margin-right:0;
+	margin-left:0;
+}
+	#downloadcentre-search fieldset .checkbox.first{padding-left:0;}
+
+fieldset .aux-label{padding-top:4px;font-style:italic;display:block;}
+fieldset .icn_audio label,
+fieldset .icn_video label,
+fieldset .icn_image label,
+fieldset .icn_document label{background-image: url('../../img/icons/icn_filetypes_checkbox.gif');background-repeat:no-repeat;padding-left:20px;color:#3F94BC;}
+
+fieldset .icn_audio label{background-position:3px 2px;}
+fieldset .icn_video label{background-position:2px -46px;}
+fieldset .icn_image label{background-position:2px -97px;}
+fieldset .icn_document label{background-position:3px -148px;}
+
+#featured-documents .item.first,#popular-downloads .item.first{padding-top:1em;}
+#popular-downloads .item{padding-right:0;}
+#popular-downloads .item p{margin-bottom:0.3636em;}
+#popular-downloads .item span{display:block;}
+#popular-downloads .item span.filesize{display:inline;}
+
+.icn_pdf,
+.icn_excel{padding-left:22px;background-repeat:no-repeat;padding-bottom:4px;}
+.icn_pdf{background-image:url('../../img/icons/icn_filetypes_pdf.gif');}
+.icn_excel{background-image:url('../../img/icons/icn_filetypes_excel.gif');}
+.listing .icn_pdf{background-position: 0 0.8181em;padding-left:22px;}
+.listing .icn_excel{background-position: 0 0.9090em;padding-left:22px;}
+
+#downloadcentre-results, #downloadcentre-results .listing{padding-top:0;margin-bottom:0;}
+#downloadcentre-results .listing .article {
+	margin-bottom:0;
+	padding: 1.2727em 0 10px 88px;
+	overflow:hidden;/*clearfix*/
+	min-height:58px;
+}
+#downloadcentre-results .listing .article h3{color:#2C9F33;}
+#downloadcentre-results .listing .article img{top:1.2727em;}
+
+#downloadcentre-results .listing .article .right{
+	width:150px;
+	margin-left:14px;
+}
+
+.span3 .cols2 .col .video_thumb{width:247px;}
+
+#filterdlsort .newListSelected{width:115px;}
+#filterdlshow .newListSelected{width:40px;}
+
+/* Document details*/
+#document-details{width:726px;height:410px;}
+#document-details .content{padding-right:110px;}
+#document-details .content .col-left{float:left;width:400px;margin-right:14px;}
+#document-details .content .col-right{float:left;width:170px;}
+#document-details .content h3{margin-bottom:1em;}
+
+/* Find a branch template*/
+.advanced-options,
+.branch-preview,
+.branch-details{
+	background-color:#FFF;
+	width:496px;
+	padding:16px 16px 11px;
+}
+.branch-preview{
+	width:134px;
+	padding:14px 14px 9px;
+}
+
+.advanced-options p.close,
+.branch-details p.close{float:right;width:auto;}
+.advanced-options p.close a,
+.branch-details p.close a{
+	background: url('../../img/colorbox/close.gif') no-repeat scroll right 50% transparent;
+	color: #3F94BC;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 0 15px 1px 0;
+}
+
+#branchfinder-options fieldset{border-bottom:1px solid #CCC;margin-bottom:9px;}
+#branchfinder-options #facilities{border:0 none;}
+#branchfinder-options fieldset legend{display:block;color:#2C9F33;font-weight:bold;margin-bottom:5px;padding:2px 0 3px;}
+#branchfinder-options fieldset .field{width:156px;margin:0 14px 1em 0;}
+#branchfinder-options fieldset label{color:#848484;font-weight:normal;padding:0;}
+#branchfinder-options fieldset .checkbox input{margin-left:0;}
+#branchfinder-options .submit input{
+	background:transparent none;
+	border:0 none;
+	color:#3F94BC;
+	cursor:pointer;
+}
+
+#branchfinder-options .submit input:hover,
+#branchfinder-options .submit input:focus{color:#0072B0;}
+
+.branch-details .faux-label{margin-bottom:0.3636em;}
+
+.branch-details #details address,
+.branch-details #details .contact,
+.branch-details #details .code,
+.branch-details #services li{
+	float:left;
+	width:156px;
+	margin-right:14px;
+}
+	body .branch-details #details address{width:135px;}
+	body .branch-details #details .code{margin-right:0;}
+
+.branch-details .content{
+	border-top:1px solid #CCCCCC;
+	clear:both;
+	overflow:hidden;/*clearfix*/
+	margin:0;
+}
+	body .branch-details #details{border:0 none;padding-top:0 !important;}
+
+.branch-details .content ul{overflow:hidden;/*clearfix*/}
+	.branch-details .content li{margin-bottom:0.2727em;}
+		#opening-hours li{display:inline-block;margin-right:14px;}
+		#opening-hours li.closed{display:block;}
+
+.branch-details #visit-local{margin:2em 0 1.0909em;}
+#branchfinder-module #advanced-options a,
+.branch-preview #full-details a{font-weight:bold;}
+
+/*country-search*/
+.main #country-search .dropdown,
+.sub #country-search .dropdown{
+	float:left;
+	margin-right:3px;
+}
+
+.main #country-search select{width:120px;}
+	.main #country-search .newListSelected{width:115px;}
+.sub #country-search select{width:110px;}
+	.sub #country-search .newListSelected{width:100px;}
+
+.main #country-search .SSContainerDivWrapper{width:163px;margin-top:3px;}
+.sub #country-search .SSContainerDivWrapper{width:148px;margin-top:3px;}
+
+.main #country-search optgroup,
+.sub #country-search optgroup{
+	background-color:#FFF;
+	color:#2C9F33;
+}
+
+.main #country-search option,
+.sub #country-search option{
+	background-color:#FFF;
+}
+
+.main #country-search .submit,
+.sub #country-search .submit{
+	background-image:url('../../img/backgrounds/bg_button_blue_tile.gif');
+	background-color:#005B9A;
+	border-color:#BFD1E9;
+	border-bottom-color:#768fB7;
+	float:left;
+}
+	.main #country-search .submit input:hover,
+	.sub #country-search .submit input:hover{}
+
+.main #country-search .submit input,
+.sub #country-search .submit input{
+	font-weight:normal;
+	width:38px;
+	height:20px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.main #hero-rotator #country-search .dropdown,
+.main #hero-rotator #country-search .submit{
+	width:160px;
+	clear:both;
+}
+
+/* listed-contacts */
+.contact-item{padding: 1.8181em 0 8px;overflow:hidden;}
+.contact-item .col{width:172px;}
+.contact-item div.last{width:222px;}
+
+/*ir shareprice*/
+#ir-shareprice {min-height:6.1818em;margin-bottom:2.4545em;}
+
+#ir-shareprice li {font-size:1.0909em;line-height:1.3333em;padding-left: 12px;text-transform:uppercase;overflow:hidden;/*clearfix*/}
+
+#ir-shareprice .up {background: url("../_themes/default/img/icons/icn_stocks_up.html") 0 50% no-repeat;}
+#ir-shareprice .down {background: url("../_themes/default/img/icons/icn_stocks_down.html") 0 50% no-repeat;}
+
+#ir-shareprice span {font-size:1.1666em;font-weight:bold;color:#62B651;float:right;display:block;}
+
+/*graduates programme search*/
+#programme_search .results li.list-header{
+	font-size:1.4545em;
+	line-height:1.125em;
+	color:#333;
+	margin-bottom:1em;
+}
+
+#programme_search .results li{clear:both;}
+
+#programme_search .results a.button{display:inline-block;margin:6px 0;}
+#programme_search .results a.button span{display:inline;padding-right:60px;}

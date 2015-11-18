@@ -1,0 +1,7 @@
+.calendar-networks li,
+/*#site-nav .nav li .social-networks li, */
+#site-nav .nav li .calendar-networks li,
+#listed-articles .article{
+	zoom: 1;
+	display: inline;
+}

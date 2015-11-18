@@ -1,0 +1,353 @@
+/* Panel styles
+=========== */
+/*Custom 960-esque grid system,
+*There are 5 columns@188px + 2px margin either side
+*Layout structure of:-
+* 2px - 188px - 4px - 188px - 4px - 188px - 4px - 188px - 4px - 188px - 2px
+*/
+/*update on 16Nov2011 for search*/
+.panel{
+	float: left;
+	width: 186px;
+	min-height: 1em;
+	margin: 0 2px;
+	padding-bottom: 5px;
+	position: relative;
+}
+	#module-social-networks,
+	#module-calendar-networks{padding-bottom: 10px;}
+		.jsEnabled #module-social-networks{padding-bottom: 13px;}
+	.extended{padding-bottom: 10px !important;}
+
+#home div.panel,
+#header .panel,
+#navbar .panel,
+#footer .panel,
+.main .panel,
+.sub .panel,
+.white,
+.black{margin-top:2px;margin-bottom:2px;}
+
+#home div.panel,
+#header .panel,
+#navbar .panel{
+	background: #000 url('../../img/backgrounds/bg_panel_tile.jpg') 0 0 repeat-x;
+	border: 1px solid #252525;
+	border-top-color: #4B4B4B;
+}
+	.panel.black{
+		background: #000 url('../../img/backgrounds/bg_panel_tile.jpg') 0 0 repeat-x !important;
+		border: 1px solid #252525 !important;
+		border-top-color: #4B4B4B !important;
+		color: #848383 !important;
+	}
+
+	#header #site-topbar{
+		background-image: url('../../img/backgrounds/bg_topbar_tile.gif');
+		border-bottom: 1px solid #1d1d1d;
+		float: right;
+		margin-top: 0;
+		padding-bottom: 2px;
+	}
+	
+	#navbar .panel{color: #FFF;width: 164px;margin-right:24px;}
+
+.main .span3,
+.sub .panel,
+#navbar .panel{clear:both;}
+
+.main .panel,
+.sub .panel{
+	background: #FFF url('../../img/backgrounds/bg_panel-white_tile.gif') 0 bottom repeat-x;
+	border: 1px solid #FFF;
+}
+	.panel.white{
+		background: #FFF url('../../img/backgrounds/bg_panel-white_tile.gif') 0 bottom repeat-x !important;
+		border: 1px solid #FFF !important;
+		color: #848383 !important;
+	}
+
+#footer .panel {border: 0 none;padding:0;}
+
+/* Panel configurations
+=========== */
+.span1half{width: 282px;}
+.span2{width: 378px;}
+.span3{ width: 570px;}
+/*.span3{width: 380px;}*/
+.span4{width: 762px;}
+.span5{width: 954px;}
+
+.panel .content{
+	margin: 0 16px;
+	/*overflow: hidden;*/ /*clearfix*/
+}
+.panel .content:after{content:".";display:block;clear:both;visibility:hidden;line-height: 0;height: 0;font-size: 0;} /*W3C compliant browsers*/
+.searchdeails {border-bottom:solid 1px #CCCCCC; margin-bottom:10px;}
+.panel .content{display:inline-block;} /*IE7 xhtml*/
+html[xmlns] .panel .content{display:block;} /*Opera*/
+* html .panel .content{height: 1%;} /*IE5-6*/
+	#header #site-topbar .content{margin: 0 15px;padding-top:8px;}
+
+.cols2reduced{width: 535px;}
+
+.panel .clearfix {overflow:visible;}
+
+#home div.panel .content,
+#header .panel .content,
+#navbar .panel .content,
+#footer .panel .content,
+.main .panel .content,
+.sub .panel .content{padding-top:16px;}
+.white .content,
+.black .content{padding-top:16px !important;}
+
+.panel .content img{margin-bottom: 1em;}
+#left_arrow{margin-bottom: -0.2em;}
+#right_arrow{margin-bottom: -0.2em; margin-left: 4px;}
+	#header .panel .content img, #site-nav .content img, #footer .panel .content img, .panel .content img.col, .panel .content #hero-rotator img {margin-bottom: 0;}
+
+.panel .content img.left{margin-right: 14px;}
+.panel .content img.right{margin-left: 14px;}
+
+/* Panel interior configurations
+=========== */
+.col{
+	float: left;
+	width: auto;
+	margin-right: 14px;
+}
+
+.span2 .cols2,
+.span2 .\32 cols,
+.span3 .cols2,
+.span3 .\32 cols,
+.span3 .cols3,
+.span3 .\33 cols,
+.span3 .cols4,
+.span3 .\34 cols,
+.span3 .cols2-1,
+.span3 .\32 -1cols,
+.span3 .cols1-2,
+.span3 .\31 -2cols,
+.span3 .cols3-1,
+.span3 .\33 -1cols,
+.span3 .cols1-3,
+.span3 .\31 -3cols{
+	overflow:visible;
+	display: inline-block;/*ie7 xhtml clearfix*/
+}
+
+.span2 .cols2:after,
+.span2 .\32 cols:after,
+.span3 .cols2:after,
+.span3 .\32 cols:after,
+.span3 .cols3:after,
+.span3 .\33 cols:after,
+.span3 .cols4:after,
+.span3 .\34 cols:after,
+.span3 .cols2-1:after,
+.span3 .\32 -1cols:after,
+.span3 .cols1-2:after,
+.span3 .\31 -2cols:after,
+.span3 .cols3-1:after,
+.span3 .\33 -1cols:after,
+.span3 .cols1-3:after,
+.span3 .\31 -3cols:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;font-size: 0;} /*clearfix*/
+
+html[xmlns] .span2 .cols2,
+html[xmlns] .span2 .\32 cols,
+html[xmlns] .span3 .cols2,
+html[xmlns] .span3 .\32 cols,
+html[xmlns] .span3 .cols3,
+html[xmlns] .span3 .\33 cols,
+html[xmlns] .span3 .cols4,
+html[xmlns] .span3 .\34 cols,
+html[xmlns] .span3 .cols2-1,
+html[xmlns] .span3 .\32 -1cols,
+html[xmlns] .span3 .cols1-2,
+html[xmlns] .span3 .\31 -2cols,
+html[xmlns] .span3 .cols3-1,
+html[xmlns] .span3 .\33 -1cols,
+html[xmlns] .span3 .cols1-3,
+html[xmlns] .span3 .\31 -3cols{display:block;} /*Opera clearfix*/
+
+* html .span2 .cols2,
+* html .span2 .\32 cols,
+* html .span3 .cols2,
+* html .span3 .\32 cols,
+* html .span3 .cols3,
+* html .span3 .\33 cols,
+* html .span3 .cols4,
+* html .span3 .\34 cols,
+* html .span3 .cols2-1,
+* html .span3 .\32 -1cols,
+* html .span3 .cols1-2,
+* html .span3 .\31 -2cols,
+* html .span3 .cols3-1,
+* html .span3 .\33 -1cols,
+* html .span3 .cols1-3,
+* html .span3 .\31 -3cols{height:1%;} /*IE5-6 clearfix*/
+
+.span2 .cols2 .col,
+.span2 .\32 cols .col{width:166px;}
+
+.span3 .cols2 .col,
+.span3 .\32 cols .col{width:262px;}
+.span3 .cols3 .col,
+.span3 .\33 cols .col,
+.span3 .cols2 .cols2 .col,
+.span3 .\32 cols .\32 cols .col{width:170px;}
+.span3 .cols2 .cols2,
+.span3 .\32 cols .\32 cols{width:354px;}
+
+.span3 .cols2-1 .col,
+.span3 .\32 -1cols .col{width:354px;}
+.span3 .cols2-1 .last-col,
+.span3 .\32 -1cols .last-col{width:170px;}
+.span3 .cols2-1 .cols2,
+.span3 .\32 -1cols .\32 cols{width:354px;}
+.span3 .cols2-1 .cols2 .col,
+.span3 .\32 -1cols .\32 cols .col{width:170px;}
+
+.span3 .cols1-2 .col,
+.span3 .\31 -2cols .col{width:170px;}
+.span3 .cols1-2 .last-col,
+.span3 .\31 -2cols .last-col{width:354px;}
+.span3 .cols1-2 .cols2,
+.span3 .\31 -2cols .\32 cols{width:354px;}
+.span3 .cols1-2 .cols2 .col,
+.span3 .\31 -2cols .\32 cols .col{width:170px;}
+
+.span3 .cols2reduced .col,
+.span3 .\32 colsreduced .col,
+.main .right-indent .cols2 .col,
+.main .right-indent .\32 cols .col{width:222px;}
+
+.span3 .cols2reduced .col,
+.span3 .\32 cols2reduced .col{width:222px;} /*del*/
+
+.span3 .cols4 .col,
+.span3 .\34 cols .col{width:124px;}
+
+.span3 .cols3-1 .col,
+.span3 .\33 -1cols .col{width:400px;}
+.span3 .cols3-1 .last-col,
+.span3 .\33 -1cols .last-col{width:124px;}
+
+.span3 .cols1-3 .col,
+.span3 .\31 -3cols .col{width:124px;}
+.span3 .cols1-3 .last-col,
+.span3 .\31 -3cols .last-col{width:400px;}
+
+.span3 .cols3-1 .col .col,
+.span3 .\33 -1cols .col .col,
+.span3 .cols1-3 .col .col,
+.span3 .\31 -3cols .col .col{width:124px;}
+
+.last-col{
+	border-bottom: 0 none !important;
+	border-right: 0 none !important;
+	margin-right: 0 !important;
+}
+
+/* Panel links
+=========== */
+.panel-links{float: right;width:auto;}
+
+.panel-links a{
+	background-color: #0088D2;
+	background-repeat: no-repeat;
+	float: left;
+	width: 16px;
+	height: 0;
+	padding-top: 16px;
+	padding-right: 0;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.panel-links a:link,
+.panel-links a:visited{background-position: 0 -18px;}
+.panel-links a:hover,
+.panel-links a:focus,
+.panel-links a:active{background-position: 0 0;}
+
+	.bookmark{background-image: url('../../img/icons/icn_site_favourite.gif');}
+	.print{background-image: url('../../img/icons/icn_site_print.gif');}
+	.panel-links .rss{background-image: url('../../img/icons/icn_corp_rss.gif');}
+
+/* Panel content dividers
+=========== */
+.vrule{background: transparent url('../../img/backgrounds/bg_vertical_rule.gif') right 0 repeat-y;}
+.hrule{background: transparent url('../../img/backgrounds/bg_horizontal_rule.gif') 0 0 repeat-x;}
+ .panel .hrule{background-image: url('../../img/backgrounds/bg_content_horizontal_rule.gif');}
+/*devnote: should offset content of panel using a rule with 2px padding to accomodate the background image but will need to also
+modify width and ie6 will not accept class chaining*/
+.vrule p{padding-right: 4px;}
+
+/* Loader gif
+=========== */
+.loader,
+.black .loader,
+.main .black .loader,
+.sub .black .loader,
+#header .loader{background: transparent url('../../img/sprites/ajax_loader_black.gif') 50% 50% no-repeat;}
+	.main .loader,
+	.sub .loader,
+	.white .loader{background-image: url('../../img/sprites/ajax_loader.gif');}
+
+/* Country list cols
+=========== */
+.cols3 .country-list .col,
+.country-list.cols3 .col{width:145px;}
+
+.panel-set{clear:both;}
+/* Image wrapper
+=========== */
+.img_wrapper {
+       position:relative;
+}
+.img_textbox {
+       /*background-image: url('../../img/backgrounds/bg_hero-carousel_tile.png');*/
+       background: #000;
+       top: 11px;
+       right: 14px;
+       width: 226px;
+       position: absolute;
+       padding: 16px 15px 5px 12px;
+       float: none;
+}
+.img_textbox .quotes {
+              color: #fff !important;
+}
+.quotes {
+       background: url('../../img/icons/quotes.png') no-repeat 0 0;
+}
+.quotes .close {
+       background: url('../../img/icons/quotes.png') no-repeat 0px -200px;
+       width: 17px;
+       height: 13px;
+       display: inline-block;
+       margin-left: 4px;
+}
+.tertiary {
+       color: #fff;
+       font-size: 1.375em; /*13px*/
+       font-weight: bold;
+       padding-left: 20px;
+}
+.tertiary span {
+       color: #62B651;
+}
+.text_c {
+       text-align: center;
+}
+.hr {
+       display: block;
+       width: 100%;
+       height: 1px;
+       font-size: 0;
+       line-height: 0;
+       border: none;
+       border-bottom: 1px solid #a7a7a7;
+}

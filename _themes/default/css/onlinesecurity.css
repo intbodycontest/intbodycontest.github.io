@@ -1,0 +1,480 @@
+.accordion {
+	border: none;
+	margin-bottom: 0;
+}
+
+.accordion dt {
+	background: url("../img/onlinesecurity/accordion_bar.png") top left no-repeat;
+	padding: 8px 0 7px 42px;
+	border: none;
+}
+
+.accordion dt a {
+	color: #666666;
+}
+
+.accordion dt.selected a {
+	color: #22a33c;
+}
+
+.accordion dt .toggle {
+    right: none;
+    left: 6px;
+    border: none;
+}
+
+.accordion dd {
+	background-color: #f9f9f9;
+}
+
+.accordion dd p {
+	margin: 0;
+	padding: 20px 20px 10px 20px;
+}
+
+.accordion dd ul {
+/*	list-style-type: square;	*/
+	list-style-type: none;
+	background-color: none;
+	margin: 0;
+	padding: 10px 20px 20px 35px;
+}
+
+.accordion dd ul li {
+	color: #848383;
+}
+
+.accordion dd ul li>span {
+	color: #848383;
+}
+
+dt .toggle:link, dt .toggle:visited {
+    background: url("../img/onlinesecurity/accordion_arrows.png") -18px 0px no-repeat;
+    background-color: transparent !important;
+}
+
+.accordion dt.selected .toggle {
+	background-position: 0px 0px;
+}
+
+.page-header {
+	font-size: 1.24em !important;
+}
+
+.page-subheader {
+	font-weight: bold; 
+	font-size: 2.3em !important;
+}
+
+.protect-btn {
+	display: block;
+	width: 116px;
+	height: 27px;
+	background: url('../img/onlinesecurity/btn_protect.jpg') 0px 0px no-repeat;
+}
+
+.protect-btn:hover {
+	background: url('../img/onlinesecurity/btn_protect.jpg') 0px -27px no-repeat;
+}
+
+.lookout-btn {
+	display: block;
+	width: 136px;
+	height: 27px;
+	background: url('../img/onlinesecurity/btn_lookout.jpg') 0px 0px no-repeat;
+}
+
+.lookout-btn:hover {
+	background: url('../img/onlinesecurity/btn_lookout.jpg') 0px -27px no-repeat;
+}
+
+.login-signup-btn {
+	display: block;
+	width: 151px;
+	height: 27px;
+	background: url('../img/onlinesecurity/btn_login.jpg') 0px 0px no-repeat;
+}
+
+.login-signup-btn:hover {
+	background: url('../img/onlinesecurity/btn_login.jpg') 0px -27px no-repeat;
+}
+
+.img-slideshow {
+	position: relative;
+	overflow: hidden;
+	width: 536px;
+	height: 303px;
+}
+
+.img-slideshow .cont {
+	position: relative;
+	width: 2000px;
+	height: 303px;
+}
+
+.img-slideshow .cont img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.img-slideshow .info,
+.img-slideshow .info-bg {
+	position: absolute;
+	top: 10px;
+	left: 267px;
+	width: 258px;
+	height: 283px;
+	z-index: 5;
+}
+
+.img-slideshow .info {
+	padding: 15px;
+	width: 228px;
+	height: 253px;
+}
+
+.img-slideshow .info ul {
+	display: inline-block;
+	float: left;
+}
+
+.img-slideshow .info ul, 
+.img-slideshow .info ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.img-slideshow .info ul li {
+	display: block;
+	float: left;
+	margin-right: 4px;
+	width: 14px;
+	height: 18px;
+}
+
+.img-slideshow .info ul li a {
+	display: block;
+	width: 10px;
+	height: 15px;
+	padding: 3px 0 0 4px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+.img-slideshow .info ul li a:hover {
+	background-color: #666666;
+	color: #FFFFFF;
+}
+
+.img-slideshow .info ul li a.selected {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.img-slideshow .info .left-arrow-btn,
+.img-slideshow .info .right-arrow-btn {
+	display: block;
+	float: right;
+	width: 6px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.img-slideshow .info .left-arrow-btn {
+	background: url('../img/onlinesecurity/arrows.png') 0px 0px no-repeat;
+}
+
+.img-slideshow .info .left-arrow-btn:hover {
+	background: url('../img/onlinesecurity/arrows.png') 0px -11px no-repeat;
+}
+
+.img-slideshow .info .right-arrow-btn {
+	background: url('../img/onlinesecurity/arrows.png') -19px 0px no-repeat;
+	margin-left: 12px;
+}
+
+.img-slideshow .info .right-arrow-btn:hover {
+	background: url('../img/onlinesecurity/arrows.png') -19px -11px no-repeat;
+}
+
+.img-slideshow .info p {
+	color: #ffffff;
+}
+
+.img-slideshow .info p.title {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 19px 0 10px 0;
+}
+
+.img-slideshow .info p.desc {
+	font-size: 1.3em;
+	margin: 0 0 15px 0;
+}
+
+.img-slideshow .info .buttons {
+	position: relative;
+	height: 27px;
+}
+
+.img-slideshow .info .buttons a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.img-slideshow .info-bg {
+	background-color: #000000;
+	opacity: 0.7;
+  	filter: alpha(opacity=70); /* For IE8 and earlier */
+  	z-index: 4;
+}
+
+.mini-span3 {
+	clear: none !important;
+	width: 282px !important;
+}
+
+.mini-span3 h2 {
+	font-size: 1.6em !important;
+	margin-bottom: 7px;
+}
+
+.mini-span3 img {
+	display: block;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.mini-span3 p {
+	width: 247px;
+	margin: 0 0 1em 0 !important;
+	padding: 10px 0 0 0;
+}
+
+.mini-span3 a {
+	font-weight: bold;
+	padding-right: 12px !important;
+	background: url('../img/onlinesecurity/blue_arrow_up.gif') top right no-repeat;
+}
+
+.mini-span3 a:hover {
+	background: url('../img/onlinesecurity/blue_arrow_dn.gif') top right no-repeat;
+}
+
+.page-intro {
+	margin: 10px 0 0 0;
+}
+
+.page-intro h3 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 2.2em;
+}
+
+.page-intro p {
+	margin: 10px 0;
+	/*font-size: 1.2em;*/
+}
+
+.page-subsection h3 {
+	margin: 0 0 15px 0;
+	font-weight: normal;
+	font-size: 1.7em;
+}
+
+.page-subsection .subsection-contents {
+	background: url('../img/onlinesecurity/subsection_bg.png') top left no-repeat;
+	min-height: 197px;
+	margin: 0;
+}
+
+.page-subsection .subsection-contents ul.tabs {
+	list-style: none;
+	display: block;
+	width: 483px;
+	height: 48px;
+	margin: 0 26px;
+	padding: 0;
+	background: url('../img/onlinesecurity/tabs_bg.png') top left no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall {
+	width: 483px;
+	height: 52px;
+	background: url('../img/onlinesecurity/tabs_bg2.png') top left no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs.wide {
+	width: 512px;
+	margin: 0 13px 0 13px;
+	background: url('../img/onlinesecurity/tabs_bg3.png') top left no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs li {
+	float: left;
+	height: 30px;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall li {
+	height: 36px;
+}
+
+.page-subsection .subsection-contents ul.tabs li>* {
+	float: left;
+}
+
+.page-subsection .subsection-contents ul.tabs li .left, 
+.page-subsection .subsection-contents ul.tabs li .right {
+	width: 11px;
+	height: 30px;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall li .left, 
+.page-subsection .subsection-contents ul.tabs.tall li .right {
+	width: 13px;
+	height: 36px;
+}
+
+.page-subsection .subsection-contents ul.tabs li.selected .left, 
+.page-subsection .subsection-contents ul.tabs li.selected .right {
+	background: url('../img/onlinesecurity/tabs.png') 0px -30px no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall li.selected .left, 
+.page-subsection .subsection-contents ul.tabs.tall li.selected .right {
+	background: url('../img/onlinesecurity/tabs2.png') 0px -36px no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs li.selected .right {
+	background: url('../img/onlinesecurity/tabs.png') -11px -30px no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall li.selected .right {
+	background: url('../img/onlinesecurity/tabs2.png') -13px -36px no-repeat;
+}
+
+.page-subsection .subsection-contents ul.tabs li a {
+	display: block;
+	height: 20px;
+	padding: 10px 0 0 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall li a {
+	height: 31px;
+	padding: 5px 0 0 0;
+	text-align: center;
+}
+
+.page-subsection .subsection-contents ul.tabs li.selected a {
+	color: #888888;
+	background: url('../img/onlinesecurity/tabs.png') 0px 0px repeat-x;
+}
+
+.page-subsection .subsection-contents ul.tabs.tall li.selected a {
+	background: url('../img/onlinesecurity/tabs2.png') 0px 0px repeat-x;
+}
+
+.page-subsection .subsection-contents .tab-content-title>* {
+	float: left;
+}
+
+.page-subsection .subsection-contents .tab-content .tab-content-title img {
+	display: block;
+	margin: 18px 0 0 21px;
+}
+
+.page-subsection .subsection-contents .tab-content .tab-content-title p {
+	margin: 0;
+	padding: 27px 0 0 10px;
+	color: #333333;
+	font-size: 1.5em;
+	width: 370px;
+}
+
+.page-subsection .subsection-contents .tab-content p {
+	margin: 20px;
+	/*font-size: 1.2em;*/
+}
+
+.page-subsection .subsection-contents .tab-content ul {
+	list-style-type: square;
+	margin: 0;
+	padding: 20px 25px 20px 35px;
+}
+
+.page-subsection .subsection-contents .tab-content ul li {
+	color: #23a12a;
+}
+
+.page-subsection .subsection-contents .tab-content ul li>span {
+	color: #848383;
+}
+
+.grid-3 {
+	height: 100%;
+}
+
+.grid-3 .cols {
+	float: left;
+	padding-top: 20px;
+}
+
+.grid-3 .cols.a {
+	width: 180px;
+}
+
+.grid-3 .cols.b {
+	width: 190px;
+}
+
+.grid-3 .cols.c {
+	width: 165px;
+}
+
+.grid-3 .cols img {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-3 .cols h3 {
+	float: left;
+	margin: 0;
+	padding: 7px 0 0 9px;
+	font-size: 1.2em;
+}
+
+.grid-3 a,
+a.w-arrow {
+	display: inline-block;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-right: 12px !important;
+	background: url('../img/onlinesecurity/blue_arrow_up.gif') top right no-repeat;
+}
+
+.grid-3 a {
+	font-size: 1.1em;
+}
+
+.grid-3 a:hover,
+a.w-arrow:hover {
+	background: url('../img/onlinesecurity/blue_arrow_dn.gif') top right no-repeat;
+}
+
+a.w-arrow {
+	padding-top: 0px;
+	font-size: 1em;
+}

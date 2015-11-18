@@ -1,0 +1,319 @@
+.smallFont {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	font-size: 10px;
+
+}
+
+.header {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+}
+
+a:link {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	color: 013e81;
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	color: 013e81;
+
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	font-weight: bold;
+
+	color: 013e81;
+
+	text-decoration: none;
+
+}
+
+a:active {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	font-weight: normal;
+
+	color: 013e81;
+
+	text-decoration: none;
+
+}
+
+.normal {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	font-size: 14px;
+
+	color: #333333;
+
+}
+
+.normalBold {
+
+	font-family: "MS Sans Serif", Tahoma, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+}
+
+/* TEXT CLASSES */
+
+.info, .success, .warning, .error, .validation {
+    border: 2px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('info.png');
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('success.png');
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('warning.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('error.png');
+}
+
+BODY {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+BODY {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 14px
+}
+TD {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 14px
+}
+SPAN {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 14px
+}
+DIV {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 14px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	OVERFLOW: auto
+}
+A:link {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; TEXT-DECORATION: none
+}
+A:active {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; FONT-WEIGHT: bold
+}
+SPAN.date-time {
+	FONT-SIZE: 9px
+}
+.date-time {
+	FONT-SIZE: 9px
+}
+SPAN.marquee {
+	WHITE-SPACE: nowrap; COLOR: #000066; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.text-large {
+	FONT-SIZE: 16px
+}
+.text-large A {
+	FONT-SIZE: 16px
+}
+.text-normal {
+	FONT-SIZE: 14px
+}
+.text-normal A {
+	FONT-SIZE: 14px
+}
+.text-small {
+	FONT-SIZE: 12px
+}
+.text-small A {
+	FONT-SIZE: 12px
+}
+.text-smaller {
+	FONT-SIZE: 10px
+}
+.text-smaller A {
+	FONT-SIZE: 10px
+}
+.font-error {
+	COLOR: #ff9900; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+.font-error-reason {
+	COLOR: #990033; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+.font-title {
+	COLOR: #990033; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+.font-subtitle {
+	COLOR: #990033; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.note-detail {
+	FONT-SIZE: 12px
+}
+.font-footer {
+	COLOR: #000000; FONT-SIZE: 9px
+}
+.roll-title {
+	TEXT-ALIGN: center; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.text-in-roll {
+	FONT-SIZE: 10px
+}
+TABLE.topPage TD {
+	BACKGROUND-COLOR: #013974; HEIGHT: 44px
+}
+TABLE.tbLogin {
+	BACKGROUND-IMAGE: url(../images/bg-login3.gif); WIDTH: 555px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 262px
+}
+TABLE.tbBlackout {
+	BACKGROUND-IMAGE: url(../images/bg-blackout.gif); WIDTH: 555px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 262px
+}
+TABLE.tbLoginOpt {
+	BACKGROUND-IMAGE: url(../images/bg-login-otp.gif); WIDTH: 555px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 262px
+}
+.menu {
+	COLOR: #003362; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.menu-sub {
+	COLOR: #003362; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+TR.rowtop TH {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #cccccc; PADDING-LEFT: 5px; HEIGHT: 25px; COLOR: #000033; FONT-WEIGHT: bold
+}
+TR.title TH {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #4b4b95; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+TH.title-r {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #4b4b95; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+TH.title-l {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #4b4b95; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+TD.title-remittance {
+	TEXT-ALIGN: right; BACKGROUND-COLOR: #013974; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+SPAN.title-r {
+	FONT-WEIGHT: bold
+}
+SPAN.title-l {
+	FONT-WEIGHT: bold
+}
+TH.title-r {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px
+}
+SPAN.title-r {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px
+}
+TH.title-l {
+	TEXT-ALIGN: left; PADDING-LEFT: 5px
+}
+SPAN.title-l {
+	TEXT-ALIGN: left; PADDING-LEFT: 5px
+}
+TR.row1 {
+	BACKGROUND-COLOR: #d7dff6; HEIGHT: 20px
+}
+TD.row1 {
+	BACKGROUND-COLOR: #d7dff6; HEIGHT: 20px
+}
+TR.row2 {
+	BACKGROUND-COLOR: #eff8ff; HEIGHT: 20px
+}
+TD.row2 {
+	BACKGROUND-COLOR: #eff8ff; HEIGHT: 20px
+}
+TR.row3 {
+	BACKGROUND-COLOR: #808080; HEIGHT: 20px; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+TD.row3 {
+	BACKGROUND-COLOR: #808080; HEIGHT: 20px; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+TD.row1 A {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 10px
+}
+TD.row1 {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 10px
+}
+TD.row2 A {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 10px
+}
+TD.row2 {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 10px
+}
+TD.row3 A {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 10px
+}
+TD.row3 {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; FONT-SIZE: 10px
+}
+TD.row1 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px
+}
+TD.row2 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px
+}
+TD.row3 {
+	PADDING-LEFT: 3px; PADDING-RIGHT: 3px
+}
+.topmenu {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #dfefff; HEIGHT: 30px; COLOR: #003362; FONT-SIZE: 12px
+}
+A.menutop:link {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; TEXT-DECORATION: none
+}
+A.menutop:active {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; TEXT-DECORATION: none
+}
+A.menutop:visited {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; TEXT-DECORATION: none
+}
+A.menutop:hover {
+	FONT-FAMILY: "MS Sans Serif", Tahoma, sans-serif; COLOR: #003362; FONT-WEIGHT: bold
+}
